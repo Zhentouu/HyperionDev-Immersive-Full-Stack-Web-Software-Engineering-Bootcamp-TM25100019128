@@ -1,0 +1,79 @@
+Algorithm 1:
+
+create num_list
+
+loop:
+  (number) = request number
+
+  if (number) not 0 or less than 0:
+    append (number) to (num_list)
+
+  elif (number) less than 0:
+    print "Please enter a positive number"
+
+  else:
+    exit
+
+sort (num_list) largest to smallest
+(largest_num) = first (number) in (num_list)
+print "(largest_num)"
+
+exit
+
+
+
+Algorithm 2:
+
+first_name = request first name
+
+print "(first_name) Hello, World."
+
+exit
+
+
+
+Algorithm 3:
+
+request (num_list)
+
+for (num) in (list):
+  (num_total) = (num_total) + (num)
+
+(average) = (num_total) / (length of num_list)
+
+print "Your average is (average)."
+
+exit
+
+
+
+Algorithm 4:
+
+request (grocery_list)
+
+sort (grocery_list) A to Z
+
+for (grocery) in (grocery_list):
+  if (grocery) are still left to buy:
+    print "(grocery)"
+
+exit
+
+
+
+Algorithm 5:
+
+(X) = request number
+(Y) = request number
+
+(S) = (X) + (Y)
+
+(A) = (S) / 2
+
+(P) = (X) x (Y)
+
+print "(S)"
+print "(A)"
+print "(P)"
+
+exit
